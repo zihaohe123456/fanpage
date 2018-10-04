@@ -4,7 +4,9 @@ html {
 
 body {
     height: 100%;
-    
+    background-image:url("https://cdn.images.express.co.uk/img/dynamic/143/590x/Legend-of-Zelda-796089.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
 }
 a {
     text-decoration: none;
@@ -17,3 +19,26 @@ a {
     width: 30px;
     margin: 15px;
 }
+.header{
+    display:flex;
+    justify-content:center;
+    font-size:200%;
+    color:gold;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+}
+.navbarword{
+    font-size:200%; 
+    color:#037022;
+}
+.footer{
+    display:flex;
+}
+.leftintro{
+    color:#f7ff66;
+    font-size:250%;
+}
+
+
