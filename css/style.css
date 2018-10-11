@@ -10,6 +10,7 @@ body {
 }
 a {
     text-decoration: none;
+
 }
 
 .main {
@@ -28,6 +29,7 @@ a {
 .navbar{
     display: flex;
     justify-content:space-around;
+    font-size:40px;
 }
 .navbarword{
     font-size:200%; 
@@ -36,9 +38,29 @@ a {
 .footer{
     display:flex;
 }
-.leftintro{
+.leftPane{
     color:#f7ff66;
     font-size:250%;
+    width:50%;
+}
+.rightPane img{
+width:90%;
+
+}
+.aboutMain{
+ display:flex;   
 }
 
+.gallery-row img{
+    width:500px;
+    border:1px solid red;
+    border-width: thick;
 
+        
+}
+
+.gallery{
+    display:flex;
+    justify-content:space-around;
+
+}
